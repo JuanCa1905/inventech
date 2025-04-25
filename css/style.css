@@ -55,10 +55,10 @@ header h1 img {
 }
 
 header h1 span {
-  font-size: 2rem;   /* Tamaño del título */
+  font-size: 2rem;
 }
 
-/* Animación para mover el logo */
+
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
@@ -69,7 +69,7 @@ header h1 span {
 }
 
 header:hover h1 img {
-  transform: translateX(10px);  /* Mueve el logo ligeramente a la derecha */
+  transform: translateX(10px);
 }
 
 
@@ -83,17 +83,21 @@ nav ul {
 }
 
 nav ul li a {
-  color: var(--white);
-  text-decoration: none;
-  font-weight: bold;
-  transition: var(--transition);
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    transition: background-color 0.5s ease;
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
-  text-decoration: underline;
-  transform: scale(1.05);
-  color: #e0f0ff;
+  background-color: var(--secondary-color);
+    color: var(--primary-color);
+    backdrop-filter: blur(20px);
+    border: 2px solid ;
 }
 
 main section {
