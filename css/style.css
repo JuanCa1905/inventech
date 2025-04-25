@@ -16,8 +16,8 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: var(--secondary-color);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: url(/img/fondo.png);
   color: var(--text-color);
   line-height: 1.6;
   overflow-x: hidden;
@@ -27,7 +27,9 @@ body {
 header {
   display: flex;
   align-items: center;
-  background-color: var(--primary-color);
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  backdrop-filter: blur(20px);
   color: var(--white);
   padding: 1.5rem;
   box-shadow: var(--shadow);
