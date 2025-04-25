@@ -18,6 +18,9 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background: url(/img/fondo.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
   color: var(--text-color);
   line-height: 1.6;
   overflow-x: hidden;
@@ -39,16 +42,16 @@ header {
 
 header h1 {
   display: flex;
-  align-items: center;  /* Alinea el logo y el texto verticalmente */
+  align-items: center;
   margin: 0;
 }
 
 header h1 img {
-  width: 50px;  /* Tamaño del logo */
+  width: 50px;
   height: auto;
-  position: relative;  /* Logo dentro del flujo del header */
-  margin-right: 10px;  /* Espacio entre el logo y el título */
-  transition: transform 0.5s ease;  /* Transición suave al mover el logo */
+  position: relative;
+  margin-right: 20px;
+  transition: transform 0.5s ease;
 }
 
 header h1 span {
