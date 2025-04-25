@@ -103,9 +103,12 @@ nav ul li a:focus {
 
 main section {
   padding: 2rem;
-  background-color: var(--white);
+  background-color: transparent;
+  color: var(--secondary-color);
   margin: 2rem auto;
+  border: 2px solid var(--primary-color);
   border-radius: var(--radius);
+  backdrop-filter: blur(20px);
   max-width: 900px;
   box-shadow: var(--shadow);
   opacity: 0;
