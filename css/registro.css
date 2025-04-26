@@ -21,7 +21,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 150vh;
-    background: url(/img/fondo.png) no-repeat;
+    background: url(../img/fondo.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
